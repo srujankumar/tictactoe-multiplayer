@@ -1,7 +1,7 @@
 import React from 'react';
 import { Client } from 'boardgame.io/react';
-import { SERVER_PORT } from './constants';
-import {TicTacToe} from "./game";
+import { SERVER_PORT } from '../constants';
+import {TicTacToe} from "../game/game";
 import {TicTacToeBoard} from "./board";
 import {SocketIO} from "boardgame.io";
 

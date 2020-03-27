@@ -1,4 +1,4 @@
-import {TicTacToe} from './game'
+import {TicTacToe} from './game/game'
 
 import { Server, FlatFile } from 'boardgame.io/server';
 import Router from 'koa-router';
